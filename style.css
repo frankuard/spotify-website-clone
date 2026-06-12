@@ -23,7 +23,7 @@ nav ul{
     background-color: black;
     color: white;
     align-items: center;
-    gap: 12px;
+    gap: 20px;
 }
 
 .logo img{
@@ -37,4 +37,10 @@ nav ul{
     display: flex;
     align-items: center;
     font-weight: bolder;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+nav ul li{
+    font-size: 13px;
 }

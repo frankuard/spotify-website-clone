@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.logo img{
+
+    width: 45px;
+    height: 45px;
+}

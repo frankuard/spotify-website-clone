@@ -22,10 +22,19 @@ nav ul{
     height: 60px;
     background-color: black;
     color: white;
+    align-items: center;
+    gap: 12px;
 }
 
 .logo img{
 
     width: 45px;
     height: 45px;
+    margin-right: 6px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
 }

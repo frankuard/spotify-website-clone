@@ -46,7 +46,19 @@ nav ul li {
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 72vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('pictures/wp2602715.jpg');
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    
 }
 
 .bottom {
@@ -59,11 +71,22 @@ nav ul li {
    justify-content: center;
    align-items: center;
    color: white;
+    flex-direction: column;
+    margin: 12px 0;
 }
 
 #ProgressBar{
 
     width: 80vw;
-    text-align: center;
 
+
+}
+
+.icons{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.pointer{
+    cursor: pointer;
 }

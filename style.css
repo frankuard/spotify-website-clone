@@ -6,17 +6,17 @@ body {
     background-color: antiquewhite;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-nav{
-font-family: 'Ubuntu', sans-serif;
+nav {
+    font-family: 'Ubuntu', sans-serif;
 }
 
-nav ul{
+nav ul {
     display: flex;
     list-style-type: none;
     height: 60px;
@@ -26,14 +26,14 @@ nav ul{
     gap: 20px;
 }
 
-.logo img{
+.logo img {
 
     width: 45px;
     height: 45px;
     margin-right: 6px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     font-weight: bolder;
@@ -41,8 +41,28 @@ nav ul{
     margin-left: 10px;
 }
 
-nav ul li{
+nav ul li {
     font-size: 13px;
 }
 
-#ProgressBar
+.container{
+    min-height: 75vh;
+}
+
+.bottom {
+
+   position: sticky;
+   height: 130px;
+   background-color: black;
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#ProgressBar{
+
+    width: 80vw;
+    text-align: center;
+
+}

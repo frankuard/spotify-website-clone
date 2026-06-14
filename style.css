@@ -90,3 +90,28 @@ nav ul li {
 .pointer{
     cursor: pointer;
 }
+
+.song-item{
+
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    gap: 5px;
+}
+
+.song-item img{
+    width: 43px;
+    margin: 0 23px;
+}
+
+.timestamp{
+    margin: 0 20px;
+    display: flex;
+    gap: 4px;
+}

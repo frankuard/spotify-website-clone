@@ -5,6 +5,8 @@ console.log("Welcome to Spotify");
 
 let songIndex= 0;
 let audioElement = new Audio('audio/1.m4a');
+let masterPlay = document.getElementById("masterPlay");
+let progressBar = document.getElementById("ProgressBar")
 // LIST OF SONGS 
 
 let songs = [{
@@ -20,3 +22,16 @@ let songs = [{
 
 // LISTENING TO EVENTS
 
+masterPlay.addEventListener('click', () => {
+    
+
+    
+})
+
+progressBar.addEventListener('timeupdate', () => {
+    console.log("Time Update")
+
+    // UPDATING SEEKBAR
+
+
+})

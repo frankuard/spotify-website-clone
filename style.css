@@ -113,5 +113,11 @@ nav ul li {
 .timestamp{
     margin: 0 20px;
     display: flex;
-    gap: 4px;
+    gap:4px;
+}
+
+
+.song-item-container{
+
+    margin-top: 74px;
 }

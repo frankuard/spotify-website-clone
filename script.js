@@ -9,26 +9,34 @@ let masterPlay = document.getElementById("masterPlay");
 let progressBar = document.getElementById("ProgressBar")
 // LIST OF SONGS 
 
-let songs = [{
-    songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
-    songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
-    songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
-    songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
-    songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
-    songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
-}]
+console.log(masterPlay);
+console.log(audioElement.src);
+// let songs = [{
+//     songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
+//     songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
+//     songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
+//     songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
+//     songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
+//     songName: "Pretty Girls Make Graves", filPath: "audio/1.m4a", coverPath: "covers/The_Smiths_The_Smiths.jpg",
+// }]
 
 //audioElement.play();
 
 // LISTENING TO EVENTS
 
+// FOR HANDLING PLAY/ PAUSE CLICK
 masterPlay.addEventListener('click', () => {
     
+    if (audioElement.paused || audioElement.currentTime<=0){
+        audioElement.play();
 
-    
+    }
+    else{
+        audioElement.pause();
+    }
 })
 
-progressBar.addEventListener('timeupdate', () => {
+audioElement.addEventListener('timeupdate', () => {
     console.log("Time Update")
 
     // UPDATING SEEKBAR

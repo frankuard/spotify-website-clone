@@ -121,3 +121,14 @@ nav ul li {
 
     margin-top: 74px;
 }
+
+.song-info{
+    position: absolute;
+    left: 10vw;
+
+}
+
+.song-info img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
